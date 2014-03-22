@@ -1,9 +1,9 @@
 'use strict';
-var each    = require('foreach'),
-    groupBy = require('group-by'),
-    matches = require('matches-selector'),
-    claim   = require('claim'),
-    query   = require('query');
+var each    = require('manuelstofer-foreach'),
+    groupBy = require('component-group-by'),
+    matches = require('component-matches-selector'),
+    claim   = require('manuelstofer-claim'),
+    query   = require('component-query');
 
 module.exports = Koboldmaki;
 
